@@ -1,9 +1,13 @@
-function App() {
+import AuthInputs from "./components/AuthInputs.jsx";
+import Header from "./components/Header.jsx";
+
+export default function App() {
   return (
-    <div>
-      <h1>React Art</h1>
-    </div>
+    <>
+      <Header />
+      <main>
+        <AuthInputs />
+      </main>
+    </>
   );
 }
-
-export default App;
